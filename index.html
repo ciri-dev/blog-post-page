@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A blog post about the importance of semantic HTML, its benefits, and examples.">
+  <title>Blog Post Page</title>
+  <style>
+    body {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      height: 100vh;
+    }
+    header {
+      padding: 1rem 0;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+      margin: 0 auto;
+    }
+    nav span {
+      color: teal;
+    }
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      cursor: pointer;
+    }
+    main {
+      width: 80%;
+      margin: auto;
+    }
+    blockquote {
+      border-left: 4px solid teal;
+      padding-left: 1rem;
+      margin: 1rem 0;
+      font-style: italic;
+    }
+
+    pre {
+      background-color: black;
+      padding: 1rem;
+      overflow-x: auto;
+      color: yellowgreen;
+    }
+    footer {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h2><span>ciridev</span> Blogs</h2>
+      <ul>
+        <li>Home</li>
+        <li>Blog</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <header>
+          <h1>Por qué el HTML Semántico Importa</h1>
+          <p>Publicado el <time datetime="2026-05-20">20 de mayo, 2026</time> por Alex Carter</p>
+      </header>
+
+      <p>El HTML semántico trata de utilizar las etiquetas adecuadas para darle un significado real a tu contenido. Esto mejora notablemente la accesibilidad, el posicionamiento en buscadores (SEO) y hace que tu código sea mucho más fácil de mantener a largo plazo.</p>
+
+      <section>
+          <h2>Beneficios</h2>
+          <p>Utilizar etiquetas semánticas te ayuda a:</p>
+          <ul>
+              <li>Construir sitios web más accesibles para lectores de pantalla.</li>
+              <li>Mejorar la comprensión de la estructura por parte de los motores de búsqueda.</li>
+              <li>Escribir código más limpio y fácil de mantener.</li>
+          </ul>
+      </section>
+
+      <section>
+          <h2>Ejemplos</h2>
+          <p>Cuando te enfocas en el significado y no en la apariencia visual, escribes contenido mucho más claro. Usar <em>elementos significativos</em> ayuda a resaltar las ideas importantes de forma correcta.</p>
+
+          <figure>
+              <img src="https://picsum.photos/id/29/600/300" alt="Ilustración minimalista de una cordillera montañosa nevada al amanecer.">
+              <figcaption>Montañas nevadas al amanecer.</figcaption>
+          </figure>
+
+          <blockquote>
+              <p>"La mejor manera de aprender HTML es escribiéndolo."</p>
+              <cite>— MDN Web Docs</cite>
+          </blockquote>
+      </section>
+
+      <section>
+        <h2>Code Sample</h2>
+        <p>Use the <code>&lt;code&gt;</code> element for inline code, like <code>&lt;code&gt;main&lt;/code&gt;</code>.</p>
+        <p>Here is a code block:</p>
+        <pre>
+          <code>
+            &lt;p class="note"&gt;
+              Semantic HTML makes the web better for everyone.
+            &lt;/p&gt;
+          </code>
+        </pre>
+      </section>
+
+      <h3>Learn More</h3>
+      <p>Read the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML Standard</a> to learn more about HTML.</p>
+    </article>   
+  </main>
+  <footer>
+    <p>&copy; 2026 ciridev. All rights reserved.</p>
+  </footer>
+</body>
+</html>
